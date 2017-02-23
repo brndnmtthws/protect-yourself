@@ -1,0 +1,9 @@
+theme: jekyll-theme-cayman
+sass:
+  sass_dir: _sass
+  style: :compressed
+url: https://protect-yourself.io
+enforce_ssl: protect-yourself.io
+title: Protect Yourself
+description: A guide to protecting your digital assets
+tagline: A guide to protecting your digital assets
