@@ -56,9 +56,13 @@ Next, write the configuration to the appropriate slot (if you used slot 2, write
 
 Once you have a static password set in the YubiKey, set your account login password using the YubiKey. From the Users & Groups panel in system preferences, set your new password by typing a short password (such as "CatsRCool"), then tap the YubiKey to enter the rest of the password. If you programmed slot 2, you must use a long tap (i.e., hold your finger on the YubiKey until the password is entered). If you programmed slot 1, use a short tap.
 
+This is sort of like having 2FA for your account login password, because you're combining something you know (the prefix) with something you have (a long random password stored in the YubiKey).
+
 ### macOS: Use a YubiKey for PIV Authentication
 
-If you have a YubiKey, you should consider using it as a smartcard for PIV authentication. [Yubico provides a guide for the process here](https://www.yubico.com/support/knowledge-base/categories/articles/how-to-use-your-yubikey-with-macos-sierra/).
+With PIV authentication, you can login to your computer by inserting the smartcard (such as a YubiKey) and entering a PIN. This may be more convenient than other login methods, such as remembering a long password. Typing a long password into your computer may be less secure, since someone with a hidden camera could record you while entering the password. You may also be susceptible to key loggers. It's much harder to defeat this type of authentication, because it would require physical access to the device. This is sort of a type of 2FA for your laptop: it requires something you know (a PIN) and something you have (a YubiKey).
+
+If you have a YubiKey, it's recommended that you use it as a smartcard for PIV authentication. [Yubico provides a guide for the process here](https://www.yubico.com/support/knowledge-base/categories/articles/how-to-use-your-yubikey-with-macos-sierra/).
 
 ## Linux
 
