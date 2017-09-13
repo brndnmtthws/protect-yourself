@@ -28,7 +28,7 @@ It's recommended you begin by familiarizing yourself with the [core concepts](#c
 
 ### Password Management
 
-Passwords should be managed using a _password manager_. A possword manager is a tool that stores passwords securely, and usually provides other useful features such as syncing across devices, backups, mobile apps, and more. Rather than remembering a password for each individual website or service you use, you should create very strong password to unlock your password manager, and then generate a new random password for each individual website or service that you use. You never need to memorize these passwords.
+Passwords should be managed using a _password manager_. A password manager is a tool that stores passwords securely, and usually provides other useful features such as syncing across devices, backups, mobile apps, and more. Rather than remembering a password for each individual website or service you use, you should create very strong password to unlock your password manager, and then generate a new random password for each individual website or service that you use. You never need to memorize these passwords.
 
 This has some important advantages over memorizing passwords, such as:
 
