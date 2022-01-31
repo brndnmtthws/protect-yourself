@@ -40,10 +40,6 @@ Newer iOS and Android devices feature multiple methods for locking your device, 
 
 [Follow the official Google guide](https://support.google.com/android-one/answer/6174402) on enabling the SIM card lock. _Note: this may not be necessary for services like Project Fi, and the SIM lock option may be missing from the device settings._
 
-### Avoid Apps from Unknown Sources
-
-Only install apps downloaded from Google Play Store. Avoid installing apps from any other source unless you are absolutely sure about what you're doing. 
-
 ### Additional Precautions
 
 If you find yourself in a situation where you are concerned about unauthorized access, such as a border crossing, it's recommended that you power off your device beforehand, or disable fingerprint unlock. When a device is powered on, it will require that you input a PIN, pattern, or password before allowing access.
