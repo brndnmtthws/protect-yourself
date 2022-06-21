@@ -12,17 +12,17 @@ This is a practical guide on how to protect yourself and your digital assets, in
 
 This guide is intentionally prescriptive and action. There may be endorsement certain products, but it is not necessarily comprehensive. In certain cases, there may be alternative methods or products which are more suitable for your needs. This is not a panacea for all your personal security problems, but rather a good starting point for anyone concerned about their personal digital privacy and security.
 
-If you'd like to make a contribution, have questions, or want to leave feedback, [please do so through GitHub](https://github.com/brndnmtthws/protect-yourself)
+If you'd like to make a contribution, have questions, or want to leave feedback, [please do so through GitHub](https://github.com/brndnmtthws/protect-yourself).
 
 ## How to Read This Guide
 
 It's recommended you begin by familiarizing yourself with the [core concepts](#core-concepts), and then moving on to the relevant [actionable topics](#action). You should focus on the following priorities:
 
 1. Secure access to your mobile phones
-1. Secure access to your PCs
-1. Secure online account access
-1. Safe browsing
-1. Secure cloud storage
+2. Secure access to your PCs
+3. Secure online account access
+4. Safe browsing
+5. Secure cloud storage
 
 # Core Concepts
 
@@ -32,9 +32,9 @@ Passwords should be managed using a _password manager_. A password manager is a 
 
 This has some important advantages over memorizing passwords, such as:
 
-* if your password for a particular website or service becomes compromised, it will not affect other websites or services (since each password is unique)
-* by not knowing your passwords, you are less likely to accidentally share your password
-* password managers includes tools for notifying you when a password may have been compromised, so you can change it
+* If your password for a particular website or service becomes compromised, it will not affect other websites or services (since each password is unique)
+* By not knowing your passwords, you are less likely to accidentally share your password
+* Password managers includes tools for notifying you when a password may have been compromised, so you can change it
 
 #### Open Source Password Managers:
 
@@ -56,7 +56,7 @@ This has some important advantages over memorizing passwords, such as:
 
 [2FA is widely supported](https://twofactorauth.org/), but not yet implemented by all online services. If a service you use doesn't support it, you should petition them to add 2FA support. Furthermore, you may want to consider whether or not a service properly supports 2FA before using their products. For example, you may want to choose a bank based on whether or not they support 2FA.
 
-In this guide, it's recommended that you use a [hardware authentication device](https://en.wikipedia.org/wiki/Security_token#Physical_types) for 2FA. Specifically, you should consider using the [YubiKey](https://www.yubico.com/products/) or a similar device. The YubiKey will be referenced elsewhere in this document. Telephony based 2FA, including SMS and voice calls, is **considered insecure and should be avoided**. In order of preference, it's recommended that you use:
+In this guide, it's recommended that you use a [hardware authentication device](https://en.wikipedia.org/wiki/Security_token#Physical_types) for 2FA. Specifically, you should consider using a [YubiKey](https://www.yubico.com/products/) or a similar device. The YubiKey will be referenced elsewhere in this document. Telephony based 2FA, including SMS and voice calls, is **considered insecure and should be avoided**. In order of preference, it's recommended that you use:
 
 1. [Hardware Security Tokens](https://en.wikipedia.org/wiki/Security_token) - **Most secure overall**
      * A piece of hardware that can be linked to several different types of 2FA standards
@@ -74,17 +74,17 @@ In this guide, it's recommended that you use a [hardware authentication device](
                * Hardware token can take the place of any software based 2FA app
      * Devices:
           * [YubiKey](https://www.yubico.com/products/yubikey-hardware/yubikey4/)
-               * While FIDO and CTAP standards are hardware agnostice Yubikey is often synonymous with hardware tokens or the number one go to solution
+               * While FIDO and CTAP standards are hardware agnostic, Yubikey is often synonymous with hardware tokens or the number one go to solution
                * Compatible with many interfaces including USBC/USBA/NFC and more
                * Fingerprint support
                * Range of models to support various needs
           * [Thetis](https://thetis.io)
                * Bluetooth support
                * Fingerprint support
-          * [Google Titan]()
+          * [Google Titan](https://cloud.google.com/titan-security-key/)
                * USBA/USBC/NFC support
                * Older models had known vulnerabilities
-2. Software-based OTP Tool - **Less secure**
+2. [Software-based OTP Tool](https://en.wikipedia.org/wiki/Software_token) - **Less secure**
      * Typically an app on a device that contains regenerating codes
      * Apps:
           * [Bitwarden](https://bitwarden.com)
@@ -97,20 +97,20 @@ In this guide, it's recommended that you use a [hardware authentication device](
                * Host yourself or with Bitwarden
           * [Google Authenticator](https://en.wikipedia.org/wiki/Google_Authenticator)
                * OTP and push notification support
-               * Only works on phones 
+               * Only works on phones
           * [Authy](https://www.authy.com/)
                * Tied to your phone number and nothing else
-               * Works on phone and computer             
-3. Trusted email account to receive OTP (preferably one which requires 2FA) - Less secure
+               * Works on phone and computer
+3. Trusted email account to receive OTP (preferably one which requires 2FA) - **Less secure**
      * If your email is comprimised then presumably any accounts you have attached to it could be comprimised
-     * Consider an email service that focuses on privacy and security
+     * Consider an email service that focuses on privacy and security such as:
           * [Protonmail](https://www.protonmail.com)
           * [Tutanota](https://tutanota.com)
           * [Lavabit](https://lavabit.com)
 4. SMS or voice call to receive OTP - **Least secure**
      * OTP that is done over a phone call or text message
      * Easier to phish
-     * Many services will offer SMS or voice calls as an account recovery method in case you cannot login. 
+     * Many services will offer SMS or voice calls as an account recovery method in case you cannot login
      * **Phone-based recovery methods (SMS & voice) should be disabled, if possible**
 
 ### Encryption
